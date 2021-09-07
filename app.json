@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expolottietest",
-    "slug": "expolottietest",
+    "name": "LottieFile Viewer",
+    "slug": "lottiefile-viewer-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "10000005",
+      "bundleIdentifier": "com.lottiefileviewer.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "versionCode": 10000005,
+      "package": "com.lottiefileviewer.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
